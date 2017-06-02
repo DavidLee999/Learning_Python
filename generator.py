@@ -56,7 +56,7 @@ def triangles2(max):
             
             L_new.append(L[i-1]+L[i])  
                       
-        L.append(1)
+        L_new.append(1)
         
         L = L_new  
             
