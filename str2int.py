@@ -16,3 +16,5 @@ def str2int(s):
         return x*10 + y
     
     return reduce(add, map(char2int, s))
+
+print str2int('1234')
