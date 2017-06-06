@@ -13,6 +13,6 @@ def name_standardized(name):
     
     new_name = new_name0 + new_name1
     
-    print new_name
+    return new_name
    
-name_standardized('mIKE')
+print map(name_standardized, ['adam', 'LISA', 'barT'])
