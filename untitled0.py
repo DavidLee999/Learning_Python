@@ -7,12 +7,8 @@ Created on Tue Jun 06 11:45:19 2017
 
 def name_standardized(name):
     
-    new_name1 = name[1:].lower()
-    
-    new_name0 = name[0].upper()
-    
-    new_name = new_name0 + new_name1
-    
-    return new_name
-   
+    #return name[0].upper() + name[1:].lower()
+   return name.capitalize()
+
+
 print map(name_standardized, ['adam', 'LISA', 'barT'])
