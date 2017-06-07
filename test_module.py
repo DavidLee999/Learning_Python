@@ -19,7 +19,7 @@ def test():
         
         print 'Hello, world.'
         
-    if len(args) == 2:
+    elif len(args) == 2:
         
         print 'Hello, %s.' % args[1]
         
