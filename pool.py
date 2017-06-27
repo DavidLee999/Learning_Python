@@ -26,7 +26,7 @@ if __name__ == '__main__':
     
     p = Pool()
     
-    for i in range(5):
+    for i in range(6):
         
         p.apply_async(long_time_task, args=(i,))
         
